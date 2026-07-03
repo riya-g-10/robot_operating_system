@@ -1,0 +1,37 @@
+[0.655s] Invoking command in '/home/student/dev_ws/src/drone': PS1=\u@ros-workspace:\w$ PYTHONPATH=/home/student/dev_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/dev_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/student/dev_ws/build/drone/build install --record /home/student/dev_ws/build/drone/install.log --single-version-externally-managed install_data
+[0.778s] running egg_info
+[0.779s] creating ../../build/drone/drone.egg-info
+[0.786s] writing ../../build/drone/drone.egg-info/PKG-INFO
+[0.787s] writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt
+[0.790s] writing entry points to ../../build/drone/drone.egg-info/entry_points.txt
+[0.791s] writing requirements to ../../build/drone/drone.egg-info/requires.txt
+[0.792s] writing top-level names to ../../build/drone/drone.egg-info/top_level.txt
+[0.793s] writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[0.808s] reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[0.810s] writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[0.811s] running build
+[0.811s] running build_py
+[0.811s] creating /home/student/dev_ws/build/drone/build
+[0.811s] creating /home/student/dev_ws/build/drone/build/lib
+[0.811s] creating /home/student/dev_ws/build/drone/build/lib/drone
+[0.811s] copying drone/__init__.py -> /home/student/dev_ws/build/drone/build/lib/drone
+[0.811s] copying drone/drone_control_node.py -> /home/student/dev_ws/build/drone/build/lib/drone
+[0.813s] running install
+[0.817s] running install_lib
+[0.824s] creating /home/student/dev_ws/install/drone/lib/python3.12/site-packages/drone
+[0.826s] copying /home/student/dev_ws/build/drone/build/lib/drone/__init__.py -> /home/student/dev_ws/install/drone/lib/python3.12/site-packages/drone
+[0.828s] copying /home/student/dev_ws/build/drone/build/lib/drone/drone_control_node.py -> /home/student/dev_ws/install/drone/lib/python3.12/site-packages/drone
+[0.829s] byte-compiling /home/student/dev_ws/install/drone/lib/python3.12/site-packages/drone/__init__.py to __init__.cpython-312.pyc
+[0.830s] byte-compiling /home/student/dev_ws/install/drone/lib/python3.12/site-packages/drone/drone_control_node.py to drone_control_node.cpython-312.pyc
+[0.832s] running install_data
+[0.832s] creating /home/student/dev_ws/install/drone/share/ament_index
+[0.833s] creating /home/student/dev_ws/install/drone/share/ament_index/resource_index
+[0.834s] creating /home/student/dev_ws/install/drone/share/ament_index/resource_index/packages
+[0.835s] copying resource/drone -> /home/student/dev_ws/install/drone/share/ament_index/resource_index/packages
+[0.835s] copying package.xml -> /home/student/dev_ws/install/drone/share/drone
+[0.836s] running install_egg_info
+[0.845s] Copying ../../build/drone/drone.egg-info to /home/student/dev_ws/install/drone/lib/python3.12/site-packages/drone-0.0.0-py3.12.egg-info
+[0.856s] running install_scripts
+[0.919s] Installing drone_control_node script to /home/student/dev_ws/install/drone/lib/drone
+[0.920s] writing list of installed files to '/home/student/dev_ws/build/drone/install.log'
+[0.958s] Invoked command in '/home/student/dev_ws/src/drone' returned '0': PS1=\u@ros-workspace:\w$ PYTHONPATH=/home/student/dev_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/dev_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/student/dev_ws/build/drone/build install --record /home/student/dev_ws/build/drone/install.log --single-version-externally-managed install_data

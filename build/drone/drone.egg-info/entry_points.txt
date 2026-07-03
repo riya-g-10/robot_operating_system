@@ -1,0 +1,3 @@
+[console_scripts]
+drone_control_test_node = drone.drone_control_node:main
+drone_cv_node = drone.drone_cv:main

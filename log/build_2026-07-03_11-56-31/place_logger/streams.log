@@ -1,0 +1,34 @@
+[0.809s] Invoking command in '/home/student/dev_ws/src/place_logger': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/dev_ws/build/place_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/dev_ws/install/place_logger/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/place_logger build --build-base /home/student/dev_ws/build/place_logger/build install --record /home/student/dev_ws/build/place_logger/install.log --single-version-externally-managed install_data
+[0.946s] running egg_info
+[0.946s] creating ../../build/place_logger/place_logger.egg-info
+[0.954s] writing ../../build/place_logger/place_logger.egg-info/PKG-INFO
+[0.956s] writing dependency_links to ../../build/place_logger/place_logger.egg-info/dependency_links.txt
+[0.958s] writing entry points to ../../build/place_logger/place_logger.egg-info/entry_points.txt
+[0.958s] writing requirements to ../../build/place_logger/place_logger.egg-info/requires.txt
+[0.959s] writing top-level names to ../../build/place_logger/place_logger.egg-info/top_level.txt
+[0.960s] writing manifest file '../../build/place_logger/place_logger.egg-info/SOURCES.txt'
+[0.977s] reading manifest file '../../build/place_logger/place_logger.egg-info/SOURCES.txt'
+[0.977s] writing manifest file '../../build/place_logger/place_logger.egg-info/SOURCES.txt'
+[0.977s] running build
+[0.977s] running build_py
+[0.977s] creating /home/student/dev_ws/build/place_logger/build
+[0.977s] creating /home/student/dev_ws/build/place_logger/build/lib
+[0.977s] creating /home/student/dev_ws/build/place_logger/build/lib/place_logger
+[0.978s] copying place_logger/__init__.py -> /home/student/dev_ws/build/place_logger/build/lib/place_logger
+[0.979s] running install
+[0.982s] running install_lib
+[0.990s] creating /home/student/dev_ws/install/place_logger/lib/python3.12/site-packages/place_logger
+[0.991s] copying /home/student/dev_ws/build/place_logger/build/lib/place_logger/__init__.py -> /home/student/dev_ws/install/place_logger/lib/python3.12/site-packages/place_logger
+[0.993s] byte-compiling /home/student/dev_ws/install/place_logger/lib/python3.12/site-packages/place_logger/__init__.py to __init__.cpython-312.pyc
+[0.995s] running install_data
+[0.995s] creating /home/student/dev_ws/install/place_logger/share/ament_index
+[0.995s] creating /home/student/dev_ws/install/place_logger/share/ament_index/resource_index
+[0.996s] creating /home/student/dev_ws/install/place_logger/share/ament_index/resource_index/packages
+[0.998s] copying resource/place_logger -> /home/student/dev_ws/install/place_logger/share/ament_index/resource_index/packages
+[0.998s] copying package.xml -> /home/student/dev_ws/install/place_logger/share/place_logger
+[1.001s] running install_egg_info
+[1.008s] Copying ../../build/place_logger/place_logger.egg-info to /home/student/dev_ws/install/place_logger/lib/python3.12/site-packages/place_logger-0.0.0-py3.12.egg-info
+[1.021s] running install_scripts
+[1.084s] Installing place_logger script to /home/student/dev_ws/install/place_logger/lib/place_logger
+[1.086s] writing list of installed files to '/home/student/dev_ws/build/place_logger/install.log'
+[1.112s] Invoked command in '/home/student/dev_ws/src/place_logger' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student/dev_ws/build/place_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/dev_ws/install/place_logger/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/place_logger build --build-base /home/student/dev_ws/build/place_logger/build install --record /home/student/dev_ws/build/place_logger/install.log --single-version-externally-managed install_data

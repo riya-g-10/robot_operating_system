@@ -1,0 +1,21 @@
+[0.674s] Invoking command in '/home/student/dev_ws/src/hello_world': PS1=\u@ros-workspace:\w$ PYTHONPATH=/home/student/dev_ws/build/hello_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/dev_ws/install/hello_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hello_world build --build-base /home/student/dev_ws/build/hello_world/build install --record /home/student/dev_ws/build/hello_world/install.log --single-version-externally-managed install_data
+[0.799s] running egg_info
+[0.806s] writing ../../build/hello_world/hello_world.egg-info/PKG-INFO
+[0.808s] writing dependency_links to ../../build/hello_world/hello_world.egg-info/dependency_links.txt
+[0.809s] writing entry points to ../../build/hello_world/hello_world.egg-info/entry_points.txt
+[0.810s] writing requirements to ../../build/hello_world/hello_world.egg-info/requires.txt
+[0.810s] writing top-level names to ../../build/hello_world/hello_world.egg-info/top_level.txt
+[0.827s] reading manifest file '../../build/hello_world/hello_world.egg-info/SOURCES.txt'
+[0.828s] writing manifest file '../../build/hello_world/hello_world.egg-info/SOURCES.txt'
+[0.829s] running build
+[0.829s] running build_py
+[0.830s] running install
+[0.833s] running install_lib
+[0.842s] running install_data
+[0.842s] running install_egg_info
+[0.850s] removing '/home/student/dev_ws/install/hello_world/lib/python3.12/site-packages/hello_world-0.0.0-py3.12.egg-info' (and everything under it)
+[0.854s] Copying ../../build/hello_world/hello_world.egg-info to /home/student/dev_ws/install/hello_world/lib/python3.12/site-packages/hello_world-0.0.0-py3.12.egg-info
+[0.865s] running install_scripts
+[0.927s] Installing hello_world_node script to /home/student/dev_ws/install/hello_world/lib/hello_world
+[0.928s] writing list of installed files to '/home/student/dev_ws/build/hello_world/install.log'
+[0.949s] Invoked command in '/home/student/dev_ws/src/hello_world' returned '0': PS1=\u@ros-workspace:\w$ PYTHONPATH=/home/student/dev_ws/build/hello_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/dev_ws/install/hello_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hello_world build --build-base /home/student/dev_ws/build/hello_world/build install --record /home/student/dev_ws/build/hello_world/install.log --single-version-externally-managed install_data

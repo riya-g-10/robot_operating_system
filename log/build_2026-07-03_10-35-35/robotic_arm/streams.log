@@ -1,0 +1,33 @@
+[0.518s] Invoking command in '/home/student/dev_ws/src/robotic_arm': PS1=\u@ros-workspace:\w$ PYTHONPATH=/home/student/dev_ws/build/robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotic_arm build --build-base /home/student/dev_ws/build/robotic_arm/build install --record /home/student/dev_ws/build/robotic_arm/install.log --single-version-externally-managed install_data
+[0.640s] running egg_info
+[0.641s] creating ../../build/robotic_arm/robotic_arm.egg-info
+[0.648s] writing ../../build/robotic_arm/robotic_arm.egg-info/PKG-INFO
+[0.651s] writing dependency_links to ../../build/robotic_arm/robotic_arm.egg-info/dependency_links.txt
+[0.651s] writing requirements to ../../build/robotic_arm/robotic_arm.egg-info/requires.txt
+[0.652s] writing top-level names to ../../build/robotic_arm/robotic_arm.egg-info/top_level.txt
+[0.653s] writing manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[0.671s] reading manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[0.671s] adding license file 'LICENSE'
+[0.671s] writing manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[0.671s] running build
+[0.671s] running build_py
+[0.672s] creating /home/student/dev_ws/build/robotic_arm/build
+[0.672s] creating /home/student/dev_ws/build/robotic_arm/build/lib
+[0.672s] creating /home/student/dev_ws/build/robotic_arm/build/lib/robotic_arm
+[0.672s] copying robotic_arm/__init__.py -> /home/student/dev_ws/build/robotic_arm/build/lib/robotic_arm
+[0.672s] running install
+[0.676s] running install_lib
+[0.684s] creating /home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages/robotic_arm
+[0.685s] copying /home/student/dev_ws/build/robotic_arm/build/lib/robotic_arm/__init__.py -> /home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages/robotic_arm
+[0.687s] byte-compiling /home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages/robotic_arm/__init__.py to __init__.cpython-312.pyc
+[0.689s] running install_data
+[0.689s] creating /home/student/dev_ws/install/robotic_arm/share/ament_index
+[0.689s] creating /home/student/dev_ws/install/robotic_arm/share/ament_index/resource_index
+[0.690s] creating /home/student/dev_ws/install/robotic_arm/share/ament_index/resource_index/packages
+[0.690s] copying resource/robotic_arm -> /home/student/dev_ws/install/robotic_arm/share/ament_index/resource_index/packages
+[0.691s] copying package.xml -> /home/student/dev_ws/install/robotic_arm/share/robotic_arm
+[0.693s] running install_egg_info
+[0.701s] Copying ../../build/robotic_arm/robotic_arm.egg-info to /home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages/robotic_arm-0.0.0-py3.12.egg-info
+[0.711s] running install_scripts
+[0.773s] writing list of installed files to '/home/student/dev_ws/build/robotic_arm/install.log'
+[0.791s] Invoked command in '/home/student/dev_ws/src/robotic_arm' returned '0': PS1=\u@ros-workspace:\w$ PYTHONPATH=/home/student/dev_ws/build/robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotic_arm build --build-base /home/student/dev_ws/build/robotic_arm/build install --record /home/student/dev_ws/build/robotic_arm/install.log --single-version-externally-managed install_data

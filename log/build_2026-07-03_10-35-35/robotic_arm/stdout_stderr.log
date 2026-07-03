@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/robotic_arm/robotic_arm.egg-info
+writing ../../build/robotic_arm/robotic_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/robotic_arm/robotic_arm.egg-info/dependency_links.txt
+writing requirements to ../../build/robotic_arm/robotic_arm.egg-info/requires.txt
+writing top-level names to ../../build/robotic_arm/robotic_arm.egg-info/top_level.txt
+writing manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+reading manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/dev_ws/build/robotic_arm/build
+creating /home/student/dev_ws/build/robotic_arm/build/lib
+creating /home/student/dev_ws/build/robotic_arm/build/lib/robotic_arm
+copying robotic_arm/__init__.py -> /home/student/dev_ws/build/robotic_arm/build/lib/robotic_arm
+running install
+running install_lib
+creating /home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages/robotic_arm
+copying /home/student/dev_ws/build/robotic_arm/build/lib/robotic_arm/__init__.py -> /home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages/robotic_arm
+byte-compiling /home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages/robotic_arm/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/student/dev_ws/install/robotic_arm/share/ament_index
+creating /home/student/dev_ws/install/robotic_arm/share/ament_index/resource_index
+creating /home/student/dev_ws/install/robotic_arm/share/ament_index/resource_index/packages
+copying resource/robotic_arm -> /home/student/dev_ws/install/robotic_arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/dev_ws/install/robotic_arm/share/robotic_arm
+running install_egg_info
+Copying ../../build/robotic_arm/robotic_arm.egg-info to /home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages/robotic_arm-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/student/dev_ws/build/robotic_arm/install.log'

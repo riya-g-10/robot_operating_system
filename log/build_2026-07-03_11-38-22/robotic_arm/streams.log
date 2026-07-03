@@ -1,0 +1,20 @@
+[0.666s] Invoking command in '/home/student/dev_ws/src/robotic_arm': PS1=\u@ros-workspace:\w$ PYTHONPATH=/home/student/dev_ws/build/robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotic_arm build --build-base /home/student/dev_ws/build/robotic_arm/build install --record /home/student/dev_ws/build/robotic_arm/install.log --single-version-externally-managed install_data
+[0.788s] running egg_info
+[0.795s] writing ../../build/robotic_arm/robotic_arm.egg-info/PKG-INFO
+[0.796s] writing dependency_links to ../../build/robotic_arm/robotic_arm.egg-info/dependency_links.txt
+[0.797s] writing requirements to ../../build/robotic_arm/robotic_arm.egg-info/requires.txt
+[0.799s] writing top-level names to ../../build/robotic_arm/robotic_arm.egg-info/top_level.txt
+[0.814s] reading manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[0.815s] adding license file 'LICENSE'
+[0.815s] writing manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[0.816s] running build
+[0.817s] running build_py
+[0.818s] running install
+[0.820s] running install_lib
+[0.828s] running install_data
+[0.828s] running install_egg_info
+[0.839s] removing '/home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages/robotic_arm-0.0.0-py3.12.egg-info' (and everything under it)
+[0.842s] Copying ../../build/robotic_arm/robotic_arm.egg-info to /home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages/robotic_arm-0.0.0-py3.12.egg-info
+[0.851s] running install_scripts
+[0.911s] writing list of installed files to '/home/student/dev_ws/build/robotic_arm/install.log'
+[0.952s] Invoked command in '/home/student/dev_ws/src/robotic_arm' returned '0': PS1=\u@ros-workspace:\w$ PYTHONPATH=/home/student/dev_ws/build/robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/dev_ws/install/robotic_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotic_arm build --build-base /home/student/dev_ws/build/robotic_arm/build install --record /home/student/dev_ws/build/robotic_arm/install.log --single-version-externally-managed install_data

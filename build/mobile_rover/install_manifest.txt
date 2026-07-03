@@ -1,0 +1,15 @@
+/home/student/dev_ws/install/mobile_rover/share/ament_index/resource_index/package_run_dependencies/mobile_rover
+/home/student/dev_ws/install/mobile_rover/share/ament_index/resource_index/parent_prefix_path/mobile_rover
+/home/student/dev_ws/install/mobile_rover/share/mobile_rover/environment/ament_prefix_path.sh
+/home/student/dev_ws/install/mobile_rover/share/mobile_rover/environment/ament_prefix_path.dsv
+/home/student/dev_ws/install/mobile_rover/share/mobile_rover/environment/path.sh
+/home/student/dev_ws/install/mobile_rover/share/mobile_rover/environment/path.dsv
+/home/student/dev_ws/install/mobile_rover/share/mobile_rover/local_setup.bash
+/home/student/dev_ws/install/mobile_rover/share/mobile_rover/local_setup.sh
+/home/student/dev_ws/install/mobile_rover/share/mobile_rover/local_setup.zsh
+/home/student/dev_ws/install/mobile_rover/share/mobile_rover/local_setup.dsv
+/home/student/dev_ws/install/mobile_rover/share/mobile_rover/package.dsv
+/home/student/dev_ws/install/mobile_rover/share/ament_index/resource_index/packages/mobile_rover
+/home/student/dev_ws/install/mobile_rover/share/mobile_rover/cmake/mobile_roverConfig.cmake
+/home/student/dev_ws/install/mobile_rover/share/mobile_rover/cmake/mobile_roverConfig-version.cmake
+/home/student/dev_ws/install/mobile_rover/share/mobile_rover/package.xml

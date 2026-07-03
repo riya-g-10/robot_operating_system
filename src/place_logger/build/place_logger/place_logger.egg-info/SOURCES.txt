@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+build/place_logger/place_logger.egg-info/PKG-INFO
+build/place_logger/place_logger.egg-info/SOURCES.txt
+build/place_logger/place_logger.egg-info/dependency_links.txt
+build/place_logger/place_logger.egg-info/entry_points.txt
+build/place_logger/place_logger.egg-info/requires.txt
+build/place_logger/place_logger.egg-info/top_level.txt
+build/place_logger/place_logger.egg-info/zip-safe
+place_logger/__init__.py
+resource/place_logger
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,20 @@
+[0.260s] Invoking command in '/home/student/dev_ws/build/mobile_rover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/dev_ws/install/place_logger:/home/student/dev_ws/install/robotic_arm:/home/student/dev_ws/install/hello_world:/home/student/dev_ws/install/drone:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/dev_ws/build/mobile_rover -- -j72 -l72
+[0.380s] Invoked command in '/home/student/dev_ws/build/mobile_rover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/dev_ws/install/place_logger:/home/student/dev_ws/install/robotic_arm:/home/student/dev_ws/install/hello_world:/home/student/dev_ws/install/drone:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student/dev_ws/build/mobile_rover -- -j72 -l72
+[0.390s] Invoking command in '/home/student/dev_ws/build/mobile_rover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/dev_ws/install/place_logger:/home/student/dev_ws/install/robotic_arm:/home/student/dev_ws/install/hello_world:/home/student/dev_ws/install/drone:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/dev_ws/build/mobile_rover
+[0.514s] -- Install configuration: ""
+[0.515s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/ament_index/resource_index/package_run_dependencies/mobile_rover
+[0.516s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/ament_index/resource_index/parent_prefix_path/mobile_rover
+[0.518s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/mobile_rover/environment/ament_prefix_path.sh
+[0.519s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/mobile_rover/environment/ament_prefix_path.dsv
+[0.521s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/mobile_rover/environment/path.sh
+[0.521s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/mobile_rover/environment/path.dsv
+[0.522s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/mobile_rover/local_setup.bash
+[0.524s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/mobile_rover/local_setup.sh
+[0.525s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/mobile_rover/local_setup.zsh
+[0.526s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/mobile_rover/local_setup.dsv
+[0.527s] -- Installing: /home/student/dev_ws/install/mobile_rover/share/mobile_rover/package.dsv
+[0.528s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/ament_index/resource_index/packages/mobile_rover
+[0.529s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/mobile_rover/cmake/mobile_roverConfig.cmake
+[0.530s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/mobile_rover/cmake/mobile_roverConfig-version.cmake
+[0.531s] -- Up-to-date: /home/student/dev_ws/install/mobile_rover/share/mobile_rover/package.xml
+[0.534s] Invoked command in '/home/student/dev_ws/build/mobile_rover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/dev_ws/install/place_logger:/home/student/dev_ws/install/robotic_arm:/home/student/dev_ws/install/hello_world:/home/student/dev_ws/install/drone:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student/dev_ws/build/mobile_rover

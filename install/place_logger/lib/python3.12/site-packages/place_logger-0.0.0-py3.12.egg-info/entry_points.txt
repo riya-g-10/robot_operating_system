@@ -1,0 +1,2 @@
+[console_scripts]
+place_logger = place_logger.place_logger_node:main

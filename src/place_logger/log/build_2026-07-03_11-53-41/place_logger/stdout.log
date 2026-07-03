@@ -1,0 +1,32 @@
+running egg_info
+creating build/place_logger/place_logger.egg-info
+writing build/place_logger/place_logger.egg-info/PKG-INFO
+writing dependency_links to build/place_logger/place_logger.egg-info/dependency_links.txt
+writing entry points to build/place_logger/place_logger.egg-info/entry_points.txt
+writing requirements to build/place_logger/place_logger.egg-info/requires.txt
+writing top-level names to build/place_logger/place_logger.egg-info/top_level.txt
+writing manifest file 'build/place_logger/place_logger.egg-info/SOURCES.txt'
+reading manifest file 'build/place_logger/place_logger.egg-info/SOURCES.txt'
+writing manifest file 'build/place_logger/place_logger.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/dev_ws/src/place_logger/build/place_logger/build
+creating /home/student/dev_ws/src/place_logger/build/place_logger/build/lib
+creating /home/student/dev_ws/src/place_logger/build/place_logger/build/lib/place_logger
+copying place_logger/__init__.py -> /home/student/dev_ws/src/place_logger/build/place_logger/build/lib/place_logger
+running install
+running install_lib
+creating /home/student/dev_ws/src/place_logger/install/place_logger/lib/python3.12/site-packages/place_logger
+copying /home/student/dev_ws/src/place_logger/build/place_logger/build/lib/place_logger/__init__.py -> /home/student/dev_ws/src/place_logger/install/place_logger/lib/python3.12/site-packages/place_logger
+byte-compiling /home/student/dev_ws/src/place_logger/install/place_logger/lib/python3.12/site-packages/place_logger/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/student/dev_ws/src/place_logger/install/place_logger/share/ament_index
+creating /home/student/dev_ws/src/place_logger/install/place_logger/share/ament_index/resource_index
+creating /home/student/dev_ws/src/place_logger/install/place_logger/share/ament_index/resource_index/packages
+copying resource/place_logger -> /home/student/dev_ws/src/place_logger/install/place_logger/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/dev_ws/src/place_logger/install/place_logger/share/place_logger
+running install_egg_info
+Copying build/place_logger/place_logger.egg-info to /home/student/dev_ws/src/place_logger/install/place_logger/lib/python3.12/site-packages/place_logger-0.0.0-py3.12.egg-info
+running install_scripts
+Installing place_logger script to /home/student/dev_ws/src/place_logger/install/place_logger/lib/place_logger
+writing list of installed files to '/home/student/dev_ws/src/place_logger/build/place_logger/install.log'
