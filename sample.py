@@ -1,61 +1,35 @@
+#!/usr/bin/env python3
+import rclpy
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Twist
+from geometry_msgs.msg import TwistStamped
+from nav_msgs.msg import Odometry
 import time
-import math
 
-
-class DrawStar(Node):
+class DrawSquare(Node):
     def __init__(self):
-        super().__init__('star_draw_node')
-        self.cmd_vel = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
+        super().__init__('square_draw_node')
+        self.cmd_vel = self.create_publisher(TwistStamped, '/cmd_vel', 10)
+        self.odometry = self.create_subscription(Odometry, '/odom', self.callback, 10)
 
-        time.sleep(1)
-        self.draw_star()
+    def callback(self, data):
+        curr_position_x = round(data.pose.pose.position.x, 2)
+        curr_position_y = round(data.pose.pose.position.y, 2)
+        print(curr_position_x, curr_position_y)
+        self.move(linear=0.1, angular=0.0, duration=5.0)
 
     def move(self, linear, angular, duration):
-        msg = Twist()
-        msg.linear.x = linear
-        msg.angular.z = angular
-
-        start = time.time()
-        while time.time() - start < duration:
-            self.cmd_vel.publish(msg)
-            time.sleep(0.02)
-
-        self.stop()
-
-    def stop(self):
-        self.cmd_vel.publish(Twist())
-        time.sleep(0.1)
-
-    def draw_star(self):
-        self.get_logger().info("Drawing CLOSED star...")
-
-        speed = 2.0
-        edge_length_time = 2.0
-
-        turn_speed = 2.0
-        turn_angle = math.radians(144)
-        turn_time = turn_angle / turn_speed
-
-        # IMPORTANT FIX: reduce drift accumulation
-        for i in range(5):
-            self.move(speed, 0.0, edge_length_time)
-            self.move(0.0, turn_speed, turn_time)
-
-        # force stop
-        self.cmd_vel.publish(Twist())
-        self.get_logger().info("Star done.")
-
+        msg = TwistStamped()
+        msg.twist.linear.x = linear
+        msg.twist.angular.z = angular
+        self.cmd_vel.publish(msg)
 
 def main():
     rclpy.init()
-    node = DrawStar()
+    node = DrawSquare()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()
