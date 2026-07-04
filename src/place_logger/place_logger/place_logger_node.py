@@ -9,7 +9,7 @@ class PlaceLogger(Node):
         file = open("visited_places.txt", "a")
 
         while True:
-            place = input("Which place did you visit in IIT Bombay? (type 'exit' to quit): ")
+            place = input("Which place did you visit ? (type 'exit' to quit): ")
 
             if place.lower() == "exit":
                 break
