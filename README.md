@@ -23,4 +23,11 @@ This provides an overview of ROS 2 and Gazebo simulation concepts, details the c
 | `/odom` | `nav_msgs/msg/Odometry` | **Subscribed** by `test.py` | Provides the robot's real-time position `(x, y)` and orientation (3D quaternion). |
 
 ---
-
+## 3. Project Workflow
+* Create a ROS 2 workspace.
+* Implement the node in test.py.
+* Configure setup.py and package.xml.
+* Build the workspace using colcon.
+* Source the generated workspace.
+* Execute the node using ros2 run.
+* Launch Gazebo for simulation if required.
